@@ -8,7 +8,7 @@ while (true)
 
     HttpClient client = new HttpClient();
 
-    client.DefaultRequestHeaders.Add("authorization", "Bearer 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");
+    client.DefaultRequestHeaders.Add("authorization", "Bearer {{SUA CREDENCIAL AQUI}}");
 
     Console.WriteLine("Digite sua pergunta");
 
